@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: colchonet_production
-  username: colchonet
-  password: <%= ENV['COLCHONET_DATABASE_PASSWORD'] %>
+  username: backdoor
+  password: <%= ENV['ngmsabe15'] %>
