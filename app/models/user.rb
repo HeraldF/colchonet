@@ -15,5 +15,3 @@ class User < ApplicationRecord
 		errors.add(:email, :invalid) unless email.match(EMAIL_REGEXP)
 	end
 end
-
-#teste de git
